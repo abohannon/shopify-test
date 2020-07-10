@@ -1,0 +1,9 @@
+development:
+  password: ${process.env.THEMEKIT_PASSWORD}
+  theme_id: ${process.env.THEMEKIT_THEME_ID}
+  store: ${process.env.THEMEKIT_STORE}
+  proxy: http://localhost:3000
+  ignore_files:
+    - "*.gif"
+    - "*.jpg"
+    - config/settings_data.json

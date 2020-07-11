@@ -2,7 +2,7 @@ development:
   password: ${THEMEKIT_PASSWORD}
   theme_id: ${THEMEKIT_THEME_ID}
   store: ${THEMEKIT_STORE}
-  proxy: http://localhost:3000
+  # proxy: http://localhost:3000
   ignore_files:
     - "*.gif"
     - "*.jpg"

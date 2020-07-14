@@ -17,6 +17,10 @@ gulp.task("sass", function () {
       // remove the extra set of quotations used for escaping the liquid string (we'll explain this in a sec)
       .pipe(replace('"{{', "{{"))
       .pipe(replace('}}"', "}}"))
+      // .pipe(replace('/*', ''))
+      // .pipe(replace('*/', ''))
+      .pipe(replace('"{%', "{%"))
+      .pipe(replace('%}"', "%}"))
       // save the file to the theme assets directory
       .pipe(gulp.dest("./assets/"))
   );

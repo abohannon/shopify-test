@@ -1,6 +1,2 @@
-// {{ 'main.scss' | '../sass/' | stylesheet_tag }}
-// @import "../sass/main.scss";
-
-h2 {
-  color: red;
-}
+@import 'abstracts/variables';
+@import 'test/test';
